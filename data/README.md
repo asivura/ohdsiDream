@@ -3,6 +3,7 @@
 Install Python3 and pip (in case you don't have it)
 
 https://wiki.python.org/moin/BeginnersGuide/Download
+
 https://pip.pypa.io/en/stable/installing/
 
 Install Synapse python dependencies
