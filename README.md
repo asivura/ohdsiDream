@@ -85,4 +85,11 @@ Verify the Docker image was successfully pushed(optional):
 https://www.synapse.org/#!Synapse:syn20822908/docker
 
 Submit docker image using button in the bottom of this page:
- https://www.synapse.org/#!Synapse:syn18405991/wiki/595495
+
+1. Open https://www.synapse.org/#!Synapse:syn20822908/docker/
+2. Select docker.synapse.org/syn20822908/dummy-model
+3. In right upper conner select "Docker repository tools"
+4. Select "Submit Docker Repository to Challenge"
+5. Select tag
+6. Select "EHR DREAM Challenge Fast Lane"
+ 
