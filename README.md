@@ -93,3 +93,8 @@ Submit docker image:
 5. Select tag
 6. Select "EHR DREAM Challenge Fast Lane"
  
+ # Limitations
+- Up to 5 successful submissions / team / day
+- Max 1h runtime / submission
+- 30 GB of memory per model
+- 4 vCPU cores @ 2400 MHz
