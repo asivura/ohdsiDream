@@ -84,7 +84,7 @@ Verify the Docker image was successfully pushed(optional):
 
 https://www.synapse.org/#!Synapse:syn20822908/docker
 
-Submit docker image using button in the bottom of this page:
+Submit docker image:
 
 1. Open https://www.synapse.org/#!Synapse:syn20822908/docker/
 2. Select docker.synapse.org/syn20822908/dummy-model
