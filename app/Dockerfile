@@ -27,10 +27,10 @@ RUN mkdir -p /opt/software/setup/R
 ADD install_packages.r /opt/software/setup/R/
 RUN Rscript /opt/software/setup/R/install_packages.r
 
-#We can read the .sql file at the entry point. Please note this sql file should read the .csv
-#and construct the database. We can then connect PLP to the database and proceed. Following is
-#example script - I haven't tried it yet. 
-#COPY *.sql /docker-entrypoint-initdb.d/
+# Assign environment variable and initiate database.
+ENV POSTGRES_USER ohdsiDreamer
+ENV POSTGRES_PASSWORD trial123 
+ENV POSTGRES_DB ohdsiCDMV
 
 # Move to the app folder
 RUN mkdir /app
